@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_reports/patient/add_details/screen/patient_add_details_screen.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
 import 'widgets/my_button.dart';
@@ -40,7 +41,14 @@ class _PatientHomeScreenState extends State<PatientHomeScreen> {
             MyButton(
               text: 'Add Details',
               buttonColor: Colors.yellow,
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => PatientAddDetialsScreen(),
+                  ),
+                );
+              },
             ),
             SizedBox(
               height: 15,
