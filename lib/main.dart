@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_reports/auth/screens/auth_wrapper.dart';
+import 'package:my_reports/doctor/screens/scan_screen.dart';
 import 'package:my_reports/patient/patient_home/screens/patient_homescreen.dart';
 
 void main() {
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AuthWrapper(),
+      // home: AuthWrapper(),
+      home: ScanScreen(),
     );
   }
 }

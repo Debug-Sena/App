@@ -42,6 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
             SizedBox(height: 20),
             MyTextfield(
               hintText: 'Password',
+              obscureText: true,
               keyboardType: TextInputType.visiblePassword,
               onChanged: (val) {
                 setState(() {

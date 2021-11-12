@@ -6,6 +6,7 @@ class MyTextfield extends StatelessWidget {
   const MyTextfield({
     Key? key,
     this.hintText = '',
+    this.obscureText = false,
     required this.keyboardType,
     required this.onChanged,
   }) : super(key: key);
@@ -13,6 +14,7 @@ class MyTextfield extends StatelessWidget {
   final String hintText;
   final ValueChanged<String> onChanged;
   final TextInputType keyboardType;
+  final bool obscureText;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -33,6 +35,7 @@ class MyTextfield extends StatelessWidget {
         onChanged: onChanged,
         keyboardType: keyboardType,
         cursorColor: Colors.black54,
+        obscureText: obscureText,
         decoration: InputDecoration(
           hintText: hintText,
           border: OutlineInputBorder(
