@@ -16,7 +16,7 @@ class MyButton extends StatelessWidget {
       onTap: onPressed,
       child: Container(
         alignment: Alignment.center,
-        padding: EdgeInsets.symmetric(vertical: 15),
+        padding: EdgeInsets.symmetric(vertical: 20),
         width: double.maxFinite,
         child: Text(
           text,

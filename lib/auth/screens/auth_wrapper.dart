@@ -21,7 +21,10 @@ class _AuthWrapperState extends State<AuthWrapper> {
     return FutureBuilder(
       future: MySharedPref.getInstance(),
       builder: (context, snapshot) {
-        if (snapshot.connectionState == ConnectionState.active) {
+        if (snapshot.hasError) {
+          print('eror');
+        }
+        if (snapshot.connectionState == ConnectionState.done) {
           if (MySharedPref.isLoggedIn) {
             return PatientHomeScreen();
           } else {

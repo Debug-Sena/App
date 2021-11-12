@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_reports/auth/screens/auth_wrapper.dart';
 import 'package:my_reports/patient/patient_home/screens/patient_homescreen.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: PatientHomeScreen(),
+      home: AuthWrapper(),
     );
   }
 }
