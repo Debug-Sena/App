@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_reports/common/my_shared_pref.dart';
-import 'package:my_reports/patient/patient_home/screens/patient_homescreen.dart';
 
+import '../../common/my_shared_pref.dart';
+import '../../patient/patient_home/screens/patient_homescreen.dart';
 import 'first_screen.dart';
 
 class AuthWrapper extends StatefulWidget {

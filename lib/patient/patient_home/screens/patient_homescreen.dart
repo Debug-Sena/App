@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_reports/common/app_colors.dart';
-import 'package:my_reports/patient/add_details/screen/patient_add_details_screen.dart';
+import '../../../common/app_colors.dart';
+import '../../add_details/screen/patient_add_details_screen.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
 import 'widgets/my_button.dart';

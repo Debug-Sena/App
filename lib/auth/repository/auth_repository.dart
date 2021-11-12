@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:my_reports/common/user_type.enum.dart';
+import '../../common/user_type.enum.dart';
 
 class AuthRepository {
   Dio dio = Dio();

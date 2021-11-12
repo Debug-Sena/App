@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_reports/common/widgets/my_appbar.dart';
+import '../../common/widgets/my_appbar.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:my_reports/doctor/scan_cubit/scan_cubit.dart';
+import '../scan_cubit/scan_cubit.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen({Key? key}) : super(key: key);

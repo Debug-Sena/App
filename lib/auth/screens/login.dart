@@ -1,13 +1,13 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:my_reports/auth/repository/auth_repository.dart';
-import 'package:my_reports/auth/screens/register.dart';
-import 'package:my_reports/common/app_colors.dart';
-import 'package:my_reports/common/user_type.enum.dart';
-import 'package:my_reports/common/widgets/my_appbar.dart';
-import 'package:my_reports/common/widgets/my_textfield.dart';
-import 'package:my_reports/patient/patient_home/screens/widgets/my_button.dart';
+import '../repository/auth_repository.dart';
+import 'register.dart';
+import '../../common/app_colors.dart';
+import '../../common/user_type.enum.dart';
+import '../../common/widgets/my_appbar.dart';
+import '../../common/widgets/my_textfield.dart';
+import '../../patient/patient_home/screens/widgets/my_button.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key, required this.userType}) : super(key: key);

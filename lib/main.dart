@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:my_reports/auth/screens/auth_wrapper.dart';
-import 'package:my_reports/doctor/scan_cubit/scan_cubit.dart';
-import 'package:my_reports/doctor/screens/result_screen.dart';
-import 'package:my_reports/doctor/screens/scan_screen.dart';
-import 'package:my_reports/patient/patient_home/screens/patient_homescreen.dart';
+import 'auth/screens/auth_wrapper.dart';
+import 'doctor/scan_cubit/scan_cubit.dart';
+import 'doctor/screens/result_screen.dart';
+import 'doctor/screens/scan_screen.dart';
+import 'patient/patient_home/screens/patient_homescreen.dart';
 
 void main() {
   runApp(const MyApp());

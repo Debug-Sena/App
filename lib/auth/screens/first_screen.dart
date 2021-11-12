@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_reports/auth/screens/login.dart';
-import 'package:my_reports/common/app_colors.dart';
-import 'package:my_reports/common/user_type.enum.dart';
-import 'package:my_reports/patient/patient_home/screens/widgets/my_button.dart';
+import 'login.dart';
+import '../../common/app_colors.dart';
+import '../../common/user_type.enum.dart';
+import '../../patient/patient_home/screens/widgets/my_button.dart';
 
 class FirstScreen extends StatelessWidget {
   const FirstScreen({Key? key}) : super(key: key);

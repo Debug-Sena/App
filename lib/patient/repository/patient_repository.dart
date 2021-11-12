@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:my_reports/patient/model/patient.dart';
+import '../model/patient.dart';
 
 class PatientRepository {
   Dio dio = Dio();

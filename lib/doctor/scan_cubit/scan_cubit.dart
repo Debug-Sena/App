@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:my_reports/common/load_status.dart';
-import 'package:my_reports/doctor/repository/scan_repository.dart';
+import '../../common/load_status.dart';
+import '../repository/scan_repository.dart';
 part 'scan_state.dart';
 
 class ScanCubit extends Cubit<ScanState> {

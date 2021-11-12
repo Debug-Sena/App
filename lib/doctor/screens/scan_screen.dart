@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
-import 'package:my_reports/common/app_colors.dart';
+import '../../common/app_colors.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:my_reports/common/load_status.dart';
-import 'package:my_reports/doctor/scan_cubit/scan_cubit.dart';
-import 'package:my_reports/doctor/screens/result_screen.dart';
+import '../../common/load_status.dart';
+import '../scan_cubit/scan_cubit.dart';
+import 'result_screen.dart';
 
 class ScanScreen extends StatelessWidget {
   const ScanScreen({Key? key}) : super(key: key);
