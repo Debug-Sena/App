@@ -62,12 +62,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
               text: 'Register',
               buttonColor: AppColors.brown,
               onPressed: () async {
+                FocusScope.of(context).unfocus();
                 await AuthRepository().register(fullName, email, password);
               },
             ),
             SizedBox(height: 10),
             InkWell(
               onTap: () {
+                FocusScope.of(context).unfocus();
                 Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(

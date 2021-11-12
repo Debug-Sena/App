@@ -23,4 +23,8 @@ class ScanCubit extends Cubit<ScanState> {
       emit(state.copyWith(loadStatus: LoadStatus.error, emailSent: false));
     }
   }
+
+  void reset() {
+    emit(ScanState.initial());
+  }
 }

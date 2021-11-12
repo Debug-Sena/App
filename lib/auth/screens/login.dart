@@ -55,6 +55,7 @@ class _LoginScreenState extends State<LoginScreen> {
               text: 'Login',
               buttonColor: AppColors.brown,
               onPressed: () async {
+                FocusScope.of(context).unfocus();
                 AuthRepository().login(
                   widget.userType,
                   email,
@@ -68,6 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
             if (widget.userType == UserType.patient)
               InkWell(
                 onTap: () {
+                  FocusScope.of(context).unfocus();
                   Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
